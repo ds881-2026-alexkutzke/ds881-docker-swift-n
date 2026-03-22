@@ -1,0 +1,9 @@
+@"
+.git
+.gitignore
+.build/
+.swiftpm/
+*.md
+*.Dockerfile
+*.sh
+"@ | Out-File -FilePath .dockerignore -Encoding utf8
